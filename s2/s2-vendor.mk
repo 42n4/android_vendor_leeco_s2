@@ -79,6 +79,11 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/etc/firmware/fidotap.b03:system/etc/firmware/fidotap.b03 \
     vendor/leeco/s2/proprietary/etc/firmware/fidotap.mbn:system/etc/firmware/fidotap.mbn \
     vendor/leeco/s2/proprietary/etc/firmware/fidotap.mdt:system/etc/firmware/fidotap.mdt \
+    vendor/leeco/s2/proprietary/etc/firmware/goodixfp.b00:system/etc/firmware/goodixfp.b00 \
+    vendor/leeco/s2/proprietary/etc/firmware/goodixfp.b01:system/etc/firmware/goodixfp.b01 \
+    vendor/leeco/s2/proprietary/etc/firmware/goodixfp.b02:system/etc/firmware/goodixfp.b02 \
+    vendor/leeco/s2/proprietary/etc/firmware/goodixfp.b03:system/etc/firmware/goodixfp.b03 \
+    vendor/leeco/s2/proprietary/etc/firmware/goodixfp.mdt:system/etc/firmware/goodixfp.mdt \
     vendor/leeco/s2/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
     vendor/leeco/s2/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/leeco/s2/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
@@ -124,6 +129,14 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/lib/libmpstream.so:system/lib/libmpstream.so \
     vendor/leeco/s2/proprietary/lib/libmputility.so:system/lib/libmputility.so \
     vendor/leeco/s2/proprietary/lib/libstlport.so:system/lib/libstlport.so \
+    vendor/leeco/s2/proprietary/lib64/hw/fingerprint.vendor.msm8952.so:system/lib64/hw/fingerprint.vendor.msm8952.so \
+    vendor/leeco/s2/proprietary/lib64/hw/gxfingerprint.default.so:system/lib64/hw/gxfingerprint.default.so \
+    vendor/leeco/s2/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
+    vendor/leeco/s2/proprietary/lib64/libfp_gf_intejni.so:system/lib64/libfp_gf_intejni.so \
+    vendor/leeco/s2/proprietary/lib64/libfpnav.so:system/lib64/libfpnav.so \
+    vendor/leeco/s2/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
+    vendor/leeco/s2/proprietary/vendor/bin/gx_fpcmd:system/vendor/bin/gx_fpcmd \
+    vendor/leeco/s2/proprietary/vendor/bin/gx_fpd:system/vendor/bin/gx_fpd \
     vendor/leeco/s2/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so \
     vendor/leeco/s2/proprietary/vendor/lib/libactuator_ak7371_ov16880_primax.so:system/vendor/lib/libactuator_ak7371_ov16880_primax.so \
     vendor/leeco/s2/proprietary/vendor/lib/libactuator_ak7371_ov16880_sunny.so:system/vendor/lib/libactuator_ak7371_ov16880_sunny.so \
